@@ -12,7 +12,6 @@ filetype off
 
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
-call pathogen#infect('bundle/{}')
 call pathogen#helptags()
 
 "   }}}
@@ -328,7 +327,6 @@ inoremap <c-l>Q <c-k>Q*
 inoremap <c-l>w <c-k>w*
 " Ω Omega
 inoremap <c-l>W <c-k>W*
-
 "   }}}
 "   Leader ---------------------------------------------------------------- {{{
 let mapleader = ","
@@ -773,6 +771,11 @@ augroup END
 let g:airline_powerline_fonts = 1
 let g:airline_exclude_preview = 1
 let g:airline_theme='solarized'
+"   }}}
+"   Apl ------------------------------------------------------------------- {{{
+augroup plugin_apl
+  au!
+augroup end
 "   }}}
 "   Coco ------------------------------------------------------------------ {{{
 augroup plugin_coco
