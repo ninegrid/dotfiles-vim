@@ -12,7 +12,7 @@ filetype off
 
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
-call pathogen#incubate()
+call pathogen#infect('bundle/{}')
 call pathogen#helptags()
 
 "   }}}
