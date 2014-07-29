@@ -773,9 +773,6 @@ let g:airline_exclude_preview = 1
 let g:airline_theme='solarized'
 "   }}}
 "   Apl ------------------------------------------------------------------- {{{
-augroup plugin_apl
-  au!
-augroup end
 "   }}}
 "   Coco ------------------------------------------------------------------ {{{
 augroup plugin_coco
