@@ -231,7 +231,13 @@ iabbrev p@  daniel.jackson@promitheia.net
 iabbrev vrcf `~/.vimrc` file
 
 " }}}
+
 " Mappings ---------------------------------------------------------------- {{{
+" Symbols ----------------------------------------------------------------- {{{
+" — en hyphen
+inoremap <c-l>- —
+"   }}}
+
 "   Greek ----------------------------------------------------------------- {{{
 
 " make fancy chars from insert mode
